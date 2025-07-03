@@ -11,10 +11,13 @@ public class tabelline {
         //chiedo un numero all'utente
         System.out.print("Inserisci un numero di cui vuoi stampare la tabellina");
         int numeroUtente = scan.nextInt();
-        
+
+
+        //chiedo il moltiplicatore
         System.out.print("Inserisci il moltiplicatore fino a cui devo arrivare");
         int moltiplicatoreFinale = scan.nextInt();
 
+        //effettuo il calcolo
         for (int i = 0; i <= moltiplicatoreFinale; i++) {
             System.out.println(numeroUtente *i);
 
